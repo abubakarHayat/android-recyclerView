@@ -39,7 +39,8 @@
         android:text="@string/btn_enter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxtAge" />
+        app:layout_constraintTop_toBottomOf="@+id/editTxtAge"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
