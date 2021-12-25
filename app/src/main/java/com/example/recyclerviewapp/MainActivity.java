@@ -34,16 +34,13 @@ public class MainActivity extends AppCompatActivity {
         User u6 = new User("Iftikhar", 11);
         User u7 = new User("Alisha", 16);
 
-        //myList.addAll(Arrays.asList(new User[]{u0,u1,u2,u3,u4,u5,u6,u7}));
-        myList.add(u1);
-        myList.add(u2);
+        myList.addAll(Arrays.asList(new User[]{u0,u1,u2,u3,u4,u5,u6,u7}));
+
         recyclerView = findViewById(R.id.recyclerView);
         layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
 
-        adapter = new RecyclerViewAdapter(myList,MainActivity.this) {
-
-        };
+        adapter = new RecyclerViewAdapter(myList,this);
 
         recyclerView.setAdapter(adapter);
     }
