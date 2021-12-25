@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewApp</string>
+    <string name="editTxt_age">Age</string>
+    <string name="btn_enter">Enter</string>
+</resources>
